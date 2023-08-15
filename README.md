@@ -45,11 +45,11 @@ For the application to function, a specific database structure is required. Ther
    1.3. Navigate to the assignment_auth_serv folder in the terminal.
    1.4. Execute the following commands:
 
-   > export FLASK_APP=app.py (For MacOS)
-   > set FLASK_APP=app.py (For Windows)
-   > flask db init
-   > flask db migrate -m "Initial migration."
-   > flask db upgrade
+   - export FLASK_APP=app.py (For MacOS)
+   - set FLASK_APP=app.py (For Windows)
+   - flask db init
+   - flask db migrate -m "Initial migration."
+   - flask db upgrade
 
 2. Use the backup of the test database. The file is located at assignment_auth_serv/test_auth.nb3.
 
